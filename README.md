@@ -2,21 +2,18 @@
 
 ## About
 
-This is a demo project for practicing Spring + Thymeleaf. The idea was to build some basic shopping cart web app.
+This is a demo project for practicing Spring. The idea was to build a Cart-service.
 
 It was made using **Spring Boot**, **Spring Security**, **Thymeleaf**, **Spring Data JPA**, **Spring Data REST and Docker**. 
 Database is in memory **H2**.
 
-There is a login and registration functionality included.
 
-Users can shop for products. Each user has his own shopping cart (session functionality).
-Checkout is transactional.
 
 ## Configuration
 
 ### Configuration Files
 
-Folder **src/resources/** contains config files for **shopping-cart** Spring Boot application.
+Folder **src/resources/** contains config files for **Cart-service** Spring Boot application.
 
 * **src/resources/application.properties** - main configuration file. Here it is possible to change admin username/password,
 as well as change the port number.
